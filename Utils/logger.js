@@ -2,7 +2,7 @@
 const winston = require('winston');
 
 //Creación del objeto de 
-//configuración de Winston.
+//configuración de Winston
 const { createLogger, format, transports } = require('winston');
 
 module.exports = createLogger({
